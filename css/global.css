@@ -1,0 +1,522 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Tapestry';
+  src: url("../fonts/Tapestry-Regular.eot");
+  src: url("../fonts/Tapestry-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Tapestry-Regular.woff2") format("woff2"), url("../fonts/Tapestry-Regular.woff") format("woff"), url("../fonts/Tapestry-Regular.svg#Tapestry-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/Gotham-Black.eot");
+  src: url("../fonts/Gotham-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Black.woff2") format("woff2"), url("../fonts/Gotham-Black.woff") format("woff"), url("../fonts/Gotham-Black.svg#Gotham-Black") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header {
+  background-color: #FFD700;
+}
+
+.header .container .row .logo .get {
+  font-size: 65px;
+  font-weight: 600;
+}
+
+.header .container .row .logo .get .get_fix {
+  color: #383838;
+}
+
+.header .container .row .logo .logo_service {
+  font-size: 18px;
+}
+
+.header .container .row .logo .logo_service .logo_service_textservice {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header .container .row .logo .logo_service .logo_service_textservice_link {
+  text-decoration: underline;
+  color: #383838;
+}
+
+.header .container .row .search .contact_phone {
+  margin-top: 5px;
+  margin-right: 20px;
+  color: #1D1D1D;
+}
+
+.header .container .row .search .search_buttons {
+  margin-top: 30px;
+}
+
+.header .container .row .search .search_buttons a {
+  font-size: 14px;
+  color: white;
+}
+
+.header .container .row .search .search_search .navbar .search_div {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.header .container .row .search .search_buttons_2 .row .search_buttons_2_a a {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.header .container .row .search .search_buttons_2 .row .search_buttons_2_a:first-child a:first-child {
+  margin-left: 23px;
+}
+
+.header .container .row .book .contact_mail {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.header .container .row .book .book_button {
+  margin-top: 15px;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  background: #1D1D1D;
+}
+
+.intro {
+  background: #073C58;
+  padding: 15px 0;
+}
+
+.intro .intro_text {
+  color: white;
+}
+
+.slider .container .carousel .carousel-indicators {
+  margin-bottom: 100px;
+}
+
+.slider .container .carousel .carousel-inner .carousel-item .blocksize {
+  max-width: 1920px;
+  width: 100%;
+  max-height: 646px;
+  height: 100%;
+}
+
+.slider .container .category_block {
+  z-index: 1;
+  max-width: 1025px;
+  width: 100%;
+  background-color: white;
+  padding: 0 15px;
+  border-radius: 80px;
+  margin-top: -70px;
+  margin-left: 10%;
+}
+
+.slider .container .category_block h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.offers {
+  margin-top: 130px;
+}
+
+.offers .container .offers_bestoffer h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.offers .container .offers_bestoffer p {
+  font-size: 17px;
+  color: #6e6e6e;
+}
+
+.offers .container .row {
+  margin-top: 20px;
+}
+
+.offers .container .row .offers_block h6 {
+  text-align: center;
+  font-weight: 600;
+  max-width: 354px;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.offers .container .row .offers_block p {
+  text-align: center;
+  max-width: 354px;
+  width: 100%;
+}
+
+.cleaning-services {
+  background-color: #FAFAFA;
+}
+
+.cleaning-services .container .cleaning-services_h2 {
+  margin-top: 160px;
+}
+
+.cleaning-services .container .cleaning-services_h2 .cleaning-services_h2black {
+  font-size: 36px;
+}
+
+.cleaning-services .container .cleaning-services_h2 .cleaning-services_h2yellow {
+  font-size: 36px;
+  color: #FFD700;
+}
+
+.cleaning-services .container .row {
+  margin-top: 70px;
+}
+
+.cleaning-services .container .row .cleaning-services_block {
+  max-width: 272px;
+  width: 100%;
+}
+
+.cleaning-services .container .row .cleaning-services_block h2 {
+  font-size: 22px;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.cleaning-services .container .row .cleaning-services_block img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.cleaning-services .container .row .cleaning-services_block .sale {
+  right: 15px;
+  bottom: 130px;
+  width: 104px;
+  height: 48px;
+  border-radius: 20px;
+  background-color: rgba(255, 215, 0, 0.6);
+}
+
+.cleaning-services .container .row .cleaning-services_block p {
+  text-align: center;
+  margin-top: 25px;
+  line-height: 25px;
+}
+
+.cleaning-services .container .row .cleaning-services_more .button_more {
+  width: 190px;
+  height: 55px;
+  background-color: #FFD700;
+  border: none;
+  border-radius: 50px;
+  margin-top: 60px;
+}
+
+.register {
+  margin-top: 50px;
+}
+
+.register .register_div {
+  margin: 0 auto;
+}
+
+.register .register_div .register_main {
+  width: 100%;
+  margin-top: 170px;
+  background-color: #383838;
+}
+
+.register .register_div .register_main .register_register {
+  height: 500px;
+  background-color: #022C43;
+}
+
+.register .register_div .register_main .register_register .register_texts {
+  margin-left: 40px;
+  max-width: 377px;
+  width: 100%;
+}
+
+.register .register_div .register_main .register_register .register_texts h2 {
+  font-size: 36px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  color: #FFD700;
+}
+
+.register .register_div .register_main .register_register .register_texts p {
+  padding: 0 15px;
+  color: white;
+}
+
+.register .register_div .register_main .covid {
+  height: 500px;
+  background-color: #FFD700;
+}
+
+.register .register_div .register_main .covid img {
+  margin-left: 50px;
+}
+
+.register .register_div .register_main .covid .covid_texts {
+  margin-left: 40px;
+  max-width: 377px;
+  width: 100%;
+}
+
+.register .register_div .register_main .covid .covid_texts h2 {
+  font-size: 36px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  color: #022C43;
+}
+
+.register .register_div .register_main .covid .covid_texts p {
+  padding: 0 15px;
+  color: #022C43;
+}
+
+.choose-us .container .choose-us_h2 {
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+
+.choose-us .container .choose-us_h2 .choose-us_why {
+  font-size: 36px;
+  color: #022C43;
+}
+
+.choose-us .container .choose-us_h2 .choose-us_choose-us {
+  font-size: 36px;
+  color: #FFD700;
+}
+
+.choose-us .container .row .choose-us_block {
+  max-width: 377px;
+  width: 100%;
+}
+
+.choose-us .container .row .choose-us_block .clock-image {
+  margin-bottom: 30px;
+}
+
+.choose-us .container .row .choose-us_block .clock-image .clock {
+  left: 23%;
+  top: 23%;
+}
+
+.choose-us .container .row .choose-us_block h4 {
+  font-size: 18px;
+}
+
+.choose-us .container .row .choose-us_block p {
+  margin-top: 12px;
+  color: #7C7C7C;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.mobile {
+  width: 100%;
+  background-image: url("../img/yellow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.mobile .mobile_photo {
+  max-width: 1100px;
+  right: 0;
+  top: -130px;
+}
+
+.mobile .mobile_main .mobile_main-manage {
+  margin-left: 300px;
+  margin-top: 250px;
+  max-width: 601px;
+  width: 100%;
+}
+
+.mobile .mobile_main .mobile_main-manage h2 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.mobile .mobile_main .mobile_main-manage .mobile_main-apple {
+  max-width: 251px;
+  width: 100%;
+}
+
+.mobile .mobile_main .mobile_main-manage .mobile_main-apple img {
+  width: 100%;
+}
+
+.mobile .mobile_main .mobile_main-manage .mobile_main-android {
+  max-width: 251px;
+  width: 100%;
+}
+
+.mobile .mobile_main .mobile_main-manage .mobile_main-android img {
+  width: 100%;
+}
+
+.mobile .mobile_main .mobile_main-sale {
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+.mobile .mobile_main .mobile_main-sale h2 {
+  font-size: 36px;
+  color: white;
+  max-width: 380px;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.mobile .mobile_main .mobile_main-sale button {
+  width: 170px;
+  font-size: 16px;
+  padding: 20px 0;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: #022C43;
+  margin-bottom: 25px;
+}
+
+.footer {
+  background-color: #022C43;
+  width: 100%;
+}
+
+.footer .row {
+  width: 100%;
+}
+
+.footer .row .copyright {
+  margin-top: 90px;
+}
+
+.footer .row .copyright .getfix .footer_get h2 {
+  font-size: 74px;
+  font-weight: 600;
+  color: #FFD700;
+}
+
+.footer .row .copyright .getfix .footer_fix h2 {
+  color: white;
+  font-size: 74px;
+  font-weight: 600;
+}
+
+.footer .row .copyright .making {
+  font-size: 10px;
+  color: white;
+}
+
+.footer .row .copyright .lorem {
+  color: white;
+  margin-top: 18px;
+}
+
+.footer .row .copyright .copy {
+  color: #FFD700;
+  margin-top: 18px;
+  margin-bottom: 75px;
+}
+
+.footer .row .footer_nav {
+  margin-top: 90px;
+}
+
+.footer .row .footer_nav h5 {
+  color: #FFD700;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.footer .row .footer_nav li {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer .row .footer_nav li a {
+  color: white;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+}
+
+.footer .row .footer_nav li a:hover {
+  color: #6e6e6e;
+}
+/*# sourceMappingURL=global.css.map */
